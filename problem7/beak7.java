@@ -6,10 +6,6 @@ public class beak7{
             Scanner num=new Scanner(System.in);
             a=num.nextInt();
             b=num.nextInt();
-            System.out.println(a+b);
-            System.out.println(a-b);
-            System.out.println(a*b);
-            System.out.println(a/b);
-            System.out.println(a%b);
+            System.out.println((a+b)+"\n"+(a-b)+"\n"+(a*b)+"\n"+(a/b)+"\n"+(a%b));
             }
 }
