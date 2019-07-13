@@ -6,7 +6,10 @@ public class beak31{
                  while(a!=0&&b!=0){
                         a=scan.nextInt();
                         b=scan.nextInt();
-                        System.out.print((a+b)+"\n");
+                        if(a!=0||b!=0)
+                        {
+                               System.out.print((a+b)+"\n");
+                        }
                  }
          }
 } 
