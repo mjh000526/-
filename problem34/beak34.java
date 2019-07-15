@@ -4,10 +4,19 @@ public class beak34{
                 Scanner scan=new Scanner(System.in);
                 int a=scan.nextInt();
                 int list []=new int[a];
+                int max=-1000001,min=1000001;
                 for(int i=0;i<a;i++)
                 {
-                     list[i]=scan.nextInt();       
+                     list[i]=scan.nextInt();
+                     if(min>=list[i])
+                     {
+                          min=list[i];
+                     }
+                     if(max<=list[i])
+                     {
+                          max=list[i];
+                     }       
                 }
-                int(
+                System.out.print(min+" "+max);
         }
 }
